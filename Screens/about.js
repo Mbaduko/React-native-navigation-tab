@@ -1,10 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
 
 const About= () => {
-    <View style={styles.page}>
-        <Text>About screen</Text>
-    </View>
-};
+    return(
+        <View style={styles.page}>
+            <Text>About screen</Text>
+        </View>
+)};
 
 export default About;
 

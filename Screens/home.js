@@ -1,10 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
 
 const Home = () => {
-    <View style={styles.page}>
-        <Text>Home screen</Text>
-    </View>
-};
+    return(
+        <View style={styles.page}>
+            <Text>Home screen</Text>
+        </View>
+)};
 
 export default Home;
 
